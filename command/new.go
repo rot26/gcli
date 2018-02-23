@@ -223,7 +223,7 @@ func (c *NewCommand) Help() string {
 	helpText := `
 Generate new cli skeleton project. At least, you must provide executable
 name. You can select cli package and set commands via command line option.
-See more about that on Options section. By default, gcli use codegangsta/cli.
+See more about that on Options section. By default, gcli use urfave/cli.
 To check cli framework you can use, run 'gcli list'. 
 
 Usage:
@@ -249,7 +249,7 @@ Options:
                               You can set multiple variables at same time with ","
                               separator.
 
-   -framework=name, -F        Cli framework name. By default, gcli use "codegangsta/cli"
+   -framework=name, -F        Cli framework name. By default, gcli use "urfave/cli"
                               To check cli framework you can use, run 'gcli list'.
                               If you set invalid framework, it will be failed.
 

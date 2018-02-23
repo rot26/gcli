@@ -25,8 +25,8 @@ Apply design template file for generating cli project
 
 Apply design template file for generating cli project. You can generate
 design template file via 'gcli design' command. If framework name is not
-specified gcli use codegangsta/cli. You can set framework name via '-F'
-option. To check cli framework you can use, run 'gcli list'. 
+specified gcli use urfave/cli. You can set framework name via '-F'
+option. To check cli framework you can use, run 'gcli list'.
 
 Usage:
 
@@ -35,7 +35,7 @@ Usage:
 
 Options:
 
-   -framework=name, -F        Cli framework name. By default, gcli use "codegangsta/cli"
+   -framework=name, -F        Cli framework name. By default, gcli use "urfave/cli"
                               To check cli framework you can use, run 'gcli list'.
                               If you set invalid framework, it will be failed.
 
@@ -61,7 +61,7 @@ Options:
   -command=name, -c           Command name which you want to add.
                               This is valid only when cli pacakge support commands.
                               This can be specified multiple times. Synopsis can be
-                              set after ":". Namely, you can specify command by 
+                              set after ":". Namely, you can specify command by
                               -command=NAME:SYNOPSYS. Only NAME is required.
                               You can set multiple variables at same time with ","
                               separator.
@@ -75,7 +75,7 @@ Options:
                               You can set multiple variables at same time with ","
                               separator.
 
-  -framework=name, -F         Cli framework name. By default, gcli use "codegangsta/cli"
+  -framework=name, -F         Cli framework name. By default, gcli use "urfave/cli"
                               To check cli framework you can use, run 'gcli list'.
                               If you set invalid framework, it will be failed.
 
@@ -102,8 +102,8 @@ Generate new cli project
 
 Generate new cli skeleton project. At least, you must provide executable
 name. You can select cli package and set commands via command line option.
-See more about that on Options section. By default, gcli use codegangsta/cli.
-To check cli framework you can use, run 'gcli list'. 
+See more about that on Options section. By default, gcli use urfave/cli.
+To check cli framework you can use, run 'gcli list'.
 
 Usage:
 
@@ -114,7 +114,7 @@ Options:
   -command=name, -c           Command name which you want to add.
                               This is valid only when cli pacakge support commands.
                               This can be specified multiple times. Synopsis can be
-                              set after ":". Namely, you can specify command by 
+                              set after ":". Namely, you can specify command by
                               -command=NAME:SYNOPSYS. Only NAME is required.
                               You can set multiple variables at same time with ","
                               separator.
@@ -128,7 +128,7 @@ Options:
                               You can set multiple variables at same time with ","
                               separator.
 
-   -framework=name, -F        Cli framework name. By default, gcli use "codegangsta/cli"
+   -framework=name, -F        Cli framework name. By default, gcli use "urfave/cli"
                               To check cli framework you can use, run 'gcli list'.
                               If you set invalid framework, it will be failed.
 
@@ -151,7 +151,7 @@ To create todo command application skeleton which has 'add' and 'delete' command
 Validate design template file
 
 Validate design template file which has required filed. If not it returns
-error and non zero value. 
+error and non zero value.
 
 Usage:
 
