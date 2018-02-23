@@ -141,7 +141,10 @@ The following section will explain [*sub-command pattern*](#sub-command) and [*f
 |[mitchellh_cli](https://github.com/mitchellh/cli)| [consul](https://github.com/hashicorp/consul), [terraform](https://github.com/hashicorp/terraform)| 
 |[go_cmd](https://github.com/golang/go/blob/master/src/cmd/go/main.go#L30#L51)| [go](https://golang.org/cmd/go/)| 
 
-([go_cmd](https://github.com/golang/go/blob/master/src/cmd/go/main.go#L30#L51) is not framework. It only uses standard package. It generates same struct and functions that `go` command uses.)
+Notes:
+
+1. [go_cmd](https://github.com/golang/go/blob/master/src/cmd/go/main.go#L30#L51) is not framework. It only uses standard package. It generates same struct and functions that `go` command uses.
+1. [urfave_cli](https://github.com/urfave/cli) was formerly named [codegangsta_cli](https://github.com/codegangsta/cli)
 
 ### Flag
 
